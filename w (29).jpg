@@ -1,0 +1,47 @@
+USING TABLES
+
+<html>
+<title>USING TABLES</title>
+<head> 
+<h1 style="color:tomato">Welcome to v sem </h1>
+<h2 style="color:dodgerblue">Welcome to WAD lab</h2>
+<h3 style="color:mediumseagreen">A1 batch</h3>
+<h4 style="color:slateblue">VAJEEHA SADAF</h4>
+<h5 style="color:violet"> 1604-21-737-002 </h5>
+<h6>MJCET </h6>
+<h7>Hyderabad</h7><br>
+ </head>
+<body>  
+SUBJECTS IN V SEM <br>
+<table>
+	<tr>
+		<th style=" background-color:gray" >S.No.</th>
+		<th style=" background-color:gray" >Subject name</th>
+	</tr>
+	<tr>
+		<td style=" background-color:lightgray">1</td>
+		<td style=" background-color:lightgray">Atomata Theory</td>
+	</tr>
+	<tr>
+		<td style=" background-color:lightgray">2</td>
+		<td style=" background-color:lightgray">Artificial Intelligence</td>
+	</tr>
+	<tr>
+		<td style=" background-color:lightgray">3</td>
+ 		<td style=" background-color:lightgray">Computer Networks</td>
+	</tr>
+	<tr>
+		<td style=" background-color:lightgray">4</td>
+		<td style=" background-color:lightgray">Operating Systems</td>
+	</tr>
+	<tr>
+		<td style=" background-color:lightgray">5</td>
+		<td style=" background-color:lightgray">Software Engineering</td>
+	</tr>
+	<tr>
+		<td style=" background-color:lightgray">6</td>
+		<td style=" background-color:lightgray">Data Mining</td>
+
+
+</body>
+</html>

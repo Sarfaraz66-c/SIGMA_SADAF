@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Admission Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        input[type="submit"], input[type="reset"] {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="reset"] {
+            background-color: #f44336;
+        }
+    </style>
+</head>
+<body style="background-color: #F7E8E5 ">
+
+    <form action="#" method="post">
+        <h2>Student Admission Form</h2>
+        
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" name="studentName" required>
+
+        <label for="fatherName">Father's Name:</label>
+        <input type="text" id="fatherName" name="fatherName" required>
+
+        <label for="motherName">Mother's Name:</label>
+        <input type="text" id="motherName" name="motherName" required>
+
+        <label for="currentAddress">Current Address:</label>
+        <textarea id="currentAddress" name="currentAddress" rows="4" required></textarea>
+
+        <label for="permanentAddress">Permanent Address:</label>
+        <textarea id="permanentAddress" name="permanentAddress" rows="4" required></textarea>
+
+        <label for="programEnrolled">Program Enrolled:</label>
+        <input type="text" id="programEnrolled" name="programEnrolled" required>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+         <select>
+        <option value="IT">IT</option>
+        <option value="CSE">CSE</option>
+        <option value="EEE">EEE</option>
+        <option value="CIVIL">CIVIL</option>
+    </select>
+    <br><br>
+    Marks(intermediate):<br>
+    <input type="text" name="marks" value="     /1000"><br><br>
+    Division Acquired(intermediate):<br>
+    <input type="radio" name="div" value="">1st<br>
+    <input type="radio" name="div" value="">2st<br>
+    <input type="radio" name="div" value="">3st<br>
+    <input type="radio" name="div" value="">Minimum pass<br>
+    <input type="radio" name="div" value="">Fail<br><br>
+
+    Language Known:<br>
+    <input type="checkbox" name="ud" value="urdu">Urdu<br>
+    <input type="checkbox" name="en" value="english">English<br>
+    <input type="checkbox" name="hin" value="hindi">Hindi<br>
+    <input type="checkbox" name="tel" value="telugu">Telugu<br>
+    <br>
+    Email:<br>
+    <input type="text" name="eml" value="Email">Email
+    <br><br>
+
+        <h3>Previous Courses Information</h3>
+
+        <label for="previousCourses">Details about Previous Courses:</label>
+        <textarea id="previousCourses" name="previousCourses" rows="4" required></textarea>
+
+        <label for="marks">Marks and Division:</label>
+        <input type="text" id="marks" name="marks" required>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

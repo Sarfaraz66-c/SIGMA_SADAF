@@ -1,0 +1,26 @@
+
+USING HEADING TAGS
+
+<html>
+<head> 
+<h1>"Welcome to v sem "</h1>
+<h2>"Welcome to WAD lab</h2>
+<h3>"A1 batch"</h3>
+<h4>"VAJEEHA SADAF"</h4>
+<h5> 1604-21-737-002 </h5>
+<h6> "MJCET "</h6>
+<h7>" Hyderabad"</h7><br>
+ </head>
+<body>  
+SUBJECTS IN V SEM <br>
+
+	1.Atomata Theory<br>
+	2.Artificial Intelligence<br>
+	3.Computer Networks<br>
+	4.Operating Systems<br>
+	5.Software Engineering<br>
+	6.Data Mining<br>
+
+
+</body>
+</html>

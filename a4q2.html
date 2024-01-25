@@ -1,0 +1,29 @@
+<html>
+<body bgcolor=cyan>
+	<script type="text/javascript">
+		var str="monkeys are fast";
+		var pos=str.search(/k[ie]ys/);
+		if(pos>=0)
+			document.write("keys occurs at position:",pos);
+		else
+			document.write("keys does not occur at in:",str);
+		document.write("<br>");
+		var str1="my pearls are pretty";
+		var pos1=str1.search(/^my/);
+		var pos3=str1.search(/pretty$/);
+		document.write("the word\'my\' found at position:",pos1);
+		document.write("<br>");
+		document.write("the word\'pretty\'found at position:",pos3);
+		document.write("<br>");
+		var str2="you89";
+		var pos2=str2.search(/\d/);
+		document.write("a didgit in the string was found at position:",pos2);
+		document.write("<br>");
+		var pos4=str2.search(/\w/);
+		document.write("alpha numeric character was found at:",pos4);
+		document.write("<br>");
+		var pos5=str2.search(/\s/);
+		document.write("a widespace was found at:",pos5);
+	</script>
+</body>
+</html>

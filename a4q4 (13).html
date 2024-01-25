@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <script type="text/javascript">
+        function focusFunction(x){
+            x.style.background = "lightblue";
+        }
+        function keypress(){
+            alert("You pressed a key inside the input field");
+        }
+        function load_greeting(){
+            alert("You are visiting home page of \n Web Applicaton Development \n WELCOME!!!");
+        }
+        function myfunction(){
+            var x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+</head>
+<body bgcolor="gray" align="center" onload="load_greeting();">
+    <br><br><BR><br><br><br><br><br><br><br><br><br>
+        Enter your name :<input type="text" onfocus="focusFunction(this)">
+        <!---<p>When the input field gets focus,a function is triggered which changes the background color</p>-->
+        <br><br>
+        <input type="text" onkeypress="keypress()"><Br>
+            <!---<p>
+                a function is triggered when the user is pressing a key in the input field
+            </p>-->
+            <br><br><br>
+    Enter your name :<input type="text" id="fname" onblur="myfunction()">
+    <!---<p>when you leave the input field ,a function is triggered which transforms the input text to upper case</p>-->
+</body>
+</html>

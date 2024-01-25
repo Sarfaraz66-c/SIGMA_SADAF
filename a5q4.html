@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src="jquery-3.7.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#hide").click(function(){
+                    $("p,p1").hide();
+                });
+                $("#show").click(function(){
+                    $("p,p1").show();
+                });
+                $("#toggle").click(function(){
+                    $("p").toggle();
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <p>RATAN MUDIRAJ</p>
+        <p1>94</p1>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="toggle">Toggle between hiding and showing</button>    
+    </body>
+</html>

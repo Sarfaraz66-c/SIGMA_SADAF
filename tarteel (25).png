@@ -1,0 +1,29 @@
+<Student_details>
+    <Student>
+        <s_no>1</s_no>
+        <roll_no>1604-21-737-002</roll_no>
+        <name>Vajeeha Sadaf</name>
+        <college_name>MJCET</college_name>
+        <Branch>Information Technology</Branch>
+        <Backlogs>NO</Backlogs>
+        <attendence>90%</attendence>
+    </Student>
+     <Student>
+        <s_no>2</s_no>
+        <roll_no>1604-21-737-007</roll_no>
+        <name>Aafia Saleem</name>
+        <college_name>MJCET</college_name>
+        <Branch>Information Technology</Branch>
+        <Backlogs>NO</Backlogs>
+        <attendence>92%</attendence>
+    </Student>
+     <Student>
+        <s_no>3</s_no>
+        <roll_no>1604-21-737-011</roll_no>
+        <name>Fouzia Fatima</name>
+        <college_name>MJCET</college_name>
+        <Branch>Information Technology</Branch>
+        <Backlogs>NO</Backlogs>
+        <attendence>91%</attendence>
+    </Student>
+</Student_details>

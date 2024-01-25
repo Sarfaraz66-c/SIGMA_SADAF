@@ -1,0 +1,38 @@
+
+USING HEADING TAGS
+
+<html>
+<head >
+
+<title>Assignment1</title>
+</head >
+<body style="background-color:#CDDDDE;">
+	
+<h1><b><i>Welcome to 5th sem</i></b> </h1>
+<h2>Welcome to WAD lab</h2>
+<h3>A1 batch</h3>
+<h2><b><i>VAJEEHA SADAF</i></b></h2>
+<h4>Information Technology</h4>
+<h5>1604-21-737-002</h5>
+<h6> MJCET </h6>
+<h7>" Hyderabad"</h7><br><hr>
+
+  
+<p>SUBJECTS IN V SEM <br></p>
+<p>In this semester I have the  following subjects.<br>
+	1.Atomata Theory<br>
+	2.Artificial Intelligence<br>
+	3.Computer Networks<br>
+	4.Operating Systems<br>
+	5.Software Engineering<br>
+	6.Data htMining<br></p>
+	<a href="https://www.google.com/" target="_blank">Click here </a><br>
+	<img src="pic1.jpg" alt="pic1" width=200 ><br><hr>
+	<img src="pic2.jpg" alt="pic2" width=200 height=200>
+
+	
+
+
+
+</body>
+</html>
